@@ -1,0 +1,106 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #E7E7E7;
+    padding-top: 100px;
+}
+
+header {
+    display:flex;
+    margin-left: 300px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+header img {
+    height:36px;
+    margin-right: 16px ;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    border: 8px solid #654321;
+    outline-color:none;
+    border-radius: 5px;
+    background-color: rgba(139, 69, 19, 0.8);
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    border-radius: 8px;
+    margin-left: 16px;
+    font-size: 24px;
+    background-color: white;
+    border:none;
+    padding:8px;
+}
+
+form button {
+    border-radius: 8px;
+    margin-left:16px;
+    background-color: #556B2F;
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+    border:none;
+    cursor: pointer;
+    padding:8px;
+}
+
+table {
+    width: 100%;
+
+}
+
+table th {
+    margin-left:30px;
+    padding:16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding:16px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+table td img {
+    height:30px;
+}
+
+#head-telefone {
+    background-color: white;
+}
+
+#head-nome {
+    background-color: #556B2F;
+}
+
+tfoot {
+    background-color: #654321;
+}
